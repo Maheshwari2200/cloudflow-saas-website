@@ -1,5 +1,9 @@
-document.getElementById("trialBtn").addEventListener("click", function(){
+function startTrial(){
 
-alert("Thank you for choosing CloudFlow! Your free trial has started.");
+document.getElementById("trial").style.display="block";
 
-});
+window.location="#trial";
+
+}
+
+
