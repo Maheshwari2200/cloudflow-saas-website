@@ -1,3 +1,5 @@
-document.querySelector("button").addEventListener("click", function(){
-    alert("Thank you for choosing CloudFlow! Free trial started.");
+document.getElementById("trialBtn").addEventListener("click", function(){
+
+alert("Thank you for choosing CloudFlow! Your free trial has started.");
+
 });
