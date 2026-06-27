@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>CloudFlow - Premium SaaS</title>
-    <link rel="stylesheet" href="style.css">
+
+<title>CloudFlow SaaS</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 
 <body>
 
+
 <header>
 
 <nav>
 
-<h2>☁️ CloudFlow</h2>
+<h2>☁ CloudFlow</h2>
 
 <ul>
 <li><a href="#home">Home</a></li>
@@ -28,27 +31,60 @@
 
 
 
+<!-- Hero Section -->
+
 <section id="home" class="hero">
 
-<h1>Grow Your Business With Smart Automation</h1>
+<h1>
+Grow Your Business With CloudFlow
+</h1>
+
 
 <p>
-CloudFlow is a modern SaaS platform for managing teams,
-analytics and workflows.
+Smart SaaS platform for teams and businesses.
 </p>
 
-<button id="trialBtn">
+
+<button onclick="startTrial()">
 Start Free Trial
 </button>
+
+
+</section>
+
+
+
+<!-- Trial Section -->
+
+<section id="trial" class="trial">
+
+<h2>Start Your Free Trial</h2>
+
+<p>
+Enter your details and start using CloudFlow.
+</p>
+
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+
+<button>
+Create Account
+</button>
+
 
 </section>
 
 
 
 
+<!-- Features -->
+
 <section id="features">
 
-<h2>Why Choose CloudFlow?</h2>
+<h2>Features</h2>
 
 
 <div class="cards">
@@ -56,19 +92,19 @@ Start Free Trial
 
 <div class="card">
 <h3>⚡ Fast Workflow</h3>
-<p>Automate daily business tasks easily.</p>
+<p>Automate your daily tasks.</p>
 </div>
 
 
 <div class="card">
-<h3>📊 Smart Analytics</h3>
-<p>Track performance with powerful reports.</p>
+<h3>📊 Analytics</h3>
+<p>Track your business growth.</p>
 </div>
 
 
 <div class="card">
-<h3>🔒 Secure Platform</h3>
-<p>Your business data stays protected.</p>
+<h3>🔒 Security</h3>
+<p>Your data is protected.</p>
 </div>
 
 
@@ -79,29 +115,11 @@ Start Free Trial
 
 
 
-<section>
-
-<h2>Business Dashboard</h2>
-
-<div class="card">
-
-<h3>Total Growth: 85%</h3>
-
-<p>
-Users: 12,500 | Projects: 340
-</p>
-
-</div>
-
-</section>
-
-
-
-
+<!-- Pricing -->
 
 <section id="pricing">
 
-<h2>Pricing Plans</h2>
+<h2>Pricing</h2>
 
 
 <div class="cards">
@@ -114,7 +132,7 @@ Users: 12,500 | Projects: 340
 
 
 <div class="card">
-<h3>Professional</h3>
+<h3>Pro</h3>
 <p>₹999/month</p>
 </div>
 
@@ -133,42 +151,47 @@ Users: 12,500 | Projects: 340
 
 
 
-<section>
-
-<h2>Testimonials</h2>
-
-<p>
-"CloudFlow improved our team productivity."
-</p>
-
-
-</section>
-
-
-
-
+<!-- Contact -->
 
 <section id="contact">
+
 
 <h2>Contact Us</h2>
 
 
-<input type="text" placeholder="Your Name">
-
-<br>
-
-<input type="email" placeholder="Your Email">
-
-<br>
-
-<textarea placeholder="Message"></textarea>
+<form action="YOUR_FORMSPREE_LINK" method="POST">
 
 
-<br>
+<input 
+type="text"
+name="name"
+placeholder="Your Name"
+required>
 
-<button>
+
+
+<input 
+type="email"
+name="email"
+placeholder="Your Email"
+required>
+
+
+
+<textarea
+name="message"
+placeholder="Your Message"
+required></textarea>
+
+
+
+<button type="submit">
 Submit
 </button>
+
+
+
+</form>
 
 
 </section>
@@ -180,11 +203,10 @@ Submit
 <footer>
 
 <p>
-© 2026 CloudFlow SaaS Company
+© 2026 CloudFlow SaaS
 </p>
 
 </footer>
-
 
 
 
